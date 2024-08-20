@@ -15,8 +15,10 @@ include_once("helpers/helper.php");
 <body>
   <header>
     <nav>
+      <a href="<?= $BASE_URL ?>"/>
       <img class="logo" src="<?= $BASE_URL?>/img/blog.png" />
-      <div class="links">
+      </a>
+        <div class="links">
         <a href="#">Home</a>
         <a href="<?= $BASE_URL ?>contato.php">Contato</a>
         <a href="#">Home</a>

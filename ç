@@ -24,7 +24,6 @@ nav {
 .title_container{
   width:100%;
   max-width:1200px;
-  padding:10px 0;
   background-color:#b3a332;
   margin:30px auto;
 }
@@ -48,7 +47,7 @@ nav {
 .btn{
   width:100px;
   padding:3px;
-  background-color:#3c35;
+  background-color:#3ca2f2;
  text-align:center;
  text-decoration:none;
 }
@@ -74,20 +73,17 @@ body {
  max-width:250px;
  gap:7px;
  flex-direction:column;
- color:#000;
- background-color:wheat;
+ color:white;
 }
 
 #post_main{
-  background-color:wheat;
   width:100%;
-  max-width:500px;
-  height:auto;
-  padding:40px 10px;
+  height:100vh;
   display:flex;
-  gap:15px;
   flex-direction:column;
-  margin:50px auto;
+  align-items:center;
+
+  margin-top:50px;
 }
 
 .single_post_img{
