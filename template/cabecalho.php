@@ -1,5 +1,6 @@
 <?php
 include_once("helpers/helper.php");
+include_once("data/connection.php");
 ?>
 
 <html>
