@@ -26,8 +26,9 @@
 <a class="btn" href="<?= $BASE_URL ?>single_post.php?id=<?= $post["id"]?>">Ver Post</a>
 </div>
 <?php
-endforeach;
+  endforeach;
 ?>
+
 </div>
 </main>
 

@@ -81,18 +81,40 @@ body {
 #post_main{
   background-color:wheat;
   width:100%;
-  max-width:500px;
   height:auto;
   padding:40px 10px;
   display:flex;
   gap:15px;
+  align-items:center;
+  justify-content:center;
+  margin:30px auto;
+}
+
+.posts_container{
+  width:100%;
+  max-width:400px;
+  display:flex;
   flex-direction:column;
-  margin:50px auto;
+  gap:10px;
 }
 
 .single_post_img{
   width:100%;
     max-width:400px;
+}
+
+.aleatory_posts_container{
+  width:100%;
+  max-width:200px;
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+}
+
+
+.aleatory_posts_container img{
+  width:100%;
+  max-width:200px;
 }
 
 .post_img{
